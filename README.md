@@ -2,7 +2,7 @@
 
 A Chrome / Brave extension that changes user agent dinamically and tries to prevent browser fingerprinting.
 
-Tested with https://www.nothingprivate.ml/
+Tested with https://www.nothingprivate.ml/ and https://clientjs.org
 
 ## Installing
 
