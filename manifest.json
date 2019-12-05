@@ -1,0 +1,23 @@
+{
+  "name": "Anox",
+  "version": "1.0",
+  "description": "Anox",
+  "authors": [{
+    "name": "Andrew S Aguiar",
+    "email": "andrewaguiar6@gmail.com"
+  }],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "js": ["index.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 2
+}
